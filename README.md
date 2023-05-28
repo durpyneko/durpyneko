@@ -1,4 +1,5 @@
-### Hi there 👋
+<!-- Hi there 👋 --!>
+[![durpy's GitHub stats](https://github-readme-stats.vercel.app/api?username=iDurpyDude12)](https://github.com/anuraghazra/github-readme-stats)
 
 <!--
 **iDurpyDude12/iDurpyDude12** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
