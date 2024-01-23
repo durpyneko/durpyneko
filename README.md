@@ -4,7 +4,10 @@
 [![durpyneko's GitHub stats](https://github-readme-stats.vercel.app/api?username=durpyneko&theme=radical)]()
 ![Streaks](https://github-readme-streak-stats.herokuapp.com/?user=durpyneko&theme=radical&hide_border=false)
 
-# Tech Stack:
+##
+[![Discord Presence](https://lanyard.cnrad.dev/api/763864687481323620?bg=520039)](https://discord.com/users/763864687481323620)
+
+## Tech Stack:
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
