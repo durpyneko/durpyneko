@@ -1,8 +1,16 @@
 # Hello!
 
+<details>
+<summary>Stats</summary>
+<br>
+  
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=durpyneko&theme=radical&size_weight=0.5&count_weight=0.5)]()
+
 [![durpyneko's GitHub stats](https://github-readme-stats.vercel.app/api?username=durpyneko&theme=radical)]()
+
 ![Streaks](https://github-readme-streak-stats.herokuapp.com/?user=durpyneko&theme=radical&hide_border=false)
+
+</details>
 
 ##
 [![Discord Presence](https://lanyard.cnrad.dev/api/763864687481323620?bg=520039)](https://discord.com/users/763864687481323620)
