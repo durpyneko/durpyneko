@@ -1,7 +1,7 @@
 # Hello!
 
 <details>
-<summary>Stats</summary>
+<summary><h2>Stats</h2></summary>
 <br>
   
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=durpyneko&theme=radical&size_weight=0.5&count_weight=0.5)]()
