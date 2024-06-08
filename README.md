@@ -13,7 +13,7 @@
 </details>
 
 ##
-[![Discord Presence](https://lanyard.cnrad.dev/api/763864687481323620?bg=520039)](https://discord.com/users/763864687481323620)
+[![Discord Presence (Lanyard)](https://lanyard.cnrad.dev/api/763864687481323620?bg=2c317e)](https://discord.com/users/763864687481323620)
 
 ## Tech Stack:
 
