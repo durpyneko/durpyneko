@@ -38,11 +38,11 @@ pointer-events:none;
 z-index: -11;
 position: fixed;
 inset:0;
-object-fit: cover;
-background-size: cover;
+object-fit: contain;
+background-size: contain;
 width: 130vw;
-opacity: 0.1;
-background: url('https://raw.githubusercontent.com/durpyneko/durpyneko/main/GOXJrWtXcAAXZlh_edit_2.png');
+opacity: 0.2;
+background: url('https://raw.githubusercontent.com/durpyneko/durpyneko/main/GOXJrWtXcAAXZlh_edit_new22.png');
 "]{}
 
 \mmlToken{ms}[fontfamily="
