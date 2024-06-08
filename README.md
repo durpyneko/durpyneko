@@ -105,7 +105,7 @@ font-size: 0.420rem;
 background: url(https://github.com/durpyneko/durpyneko/blob/main/shikanoko-nokonoko-koshitantan-torako-koshi.gif?raw=true);
 background-repeat: no-repeat;
 background-size: cover;
-opacity: 0.1;
+opacity: 0.03;
 background-position-x: center;
 "]{}
 ```
