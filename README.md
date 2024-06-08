@@ -29,6 +29,7 @@
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X0SE0PQ)
 
+# Theme by TheCubiq edit of iGerman00
 ```math
 \mmlToken{ms}[fontfamily="
 madebycubiquwu;
