@@ -42,7 +42,7 @@ object-fit: contain;
 background-size: contain;
 width: 130vw;
 opacity: 0.2;
-background: url('https://raw.githubusercontent.com/durpyneko/durpyneko/main/GOXJrWtXcAAXZlh_edit_new22.png');
+background: url('https://raw.githubusercontent.com/durpyneko/durpyneko/main/GOXJrWtXcAAXZlh_edit_2.png');
 "]{}
 
 \mmlToken{ms}[fontfamily="
