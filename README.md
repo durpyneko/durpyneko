@@ -40,8 +40,8 @@ inset:0;
 object-fit: cover;
 background-size: cover;
 width: 130vw;
-opacity: 0.5;
-background: url('https://raw.githubusercontent.com/iGerman00/iGerman00/main/background.jpg');
+opacity: 0.1;
+background: url('https://raw.githubusercontent.com/durpyneko/durpyneko/main/GOXJrWtXcAAXZlh_edit_2.png');
 "]{}
 
 \mmlToken{ms}[fontfamily="
@@ -68,7 +68,7 @@ inset:0;
 object-fit: cover;
 background-size: cover;
 z-index: 99;
-backdrop-filter: hue-rotate(89deg);
+backdrop-filter: hue-rotate(80deg);
 "]{}
 
 \mmlToken{ms}[fontfamily="
