@@ -28,3 +28,7 @@
 ![Godot Engine](https://img.shields.io/badge/GODOT-%23FFFFFF.svg?style=for-the-badge&logo=godot-engine)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X0SE0PQ)
+
+## As a tribute to the exploit being patched (￣^￣ )ゞ ,
+![Shikanokonokonokoshitantan](https://github.com/durpyneko/durpyneko/blob/main/shikanoko-nokonoko-koshitantan-torako-koshi.gif?raw=true)
+
