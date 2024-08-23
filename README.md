@@ -1,5 +1,7 @@
 # Hello!
 
+I'm currently on a Rust learning journey. Please bear with me. (⌒_⌒;)
+
 <details>
 <summary><h2>Stats</h2></summary>
 <br>
