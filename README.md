@@ -16,6 +16,7 @@ I'm currently on a Rust learning journey. Please bear with me. (⌒_⌒;)
 
 ##
 [![Discord Presence (Lanyard)](https://lanyard.cnrad.dev/api/763864687481323620?bg=5a205a)](https://discord.com/users/763864687481323620)
+![Wakapi](https://github-readme-stats.vercel.app/api/wakatime?username=durpyneko&hide_border=true&border_radius=16&api_domain=waka.assassin.dev&bg_color=1A202C&title_color=2F855A&icon_color=2F855A&text_color=ffffff&custom_title=Wakapi.dev+Stats+(Last+7+Days)&layout=compact)
 
 ## Tech Stack:
 
