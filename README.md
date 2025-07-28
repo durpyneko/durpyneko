@@ -17,3 +17,15 @@
 <br>
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X0SE0PQ)
+
+<div align="left">
+<img alt="error_snail" src="/media/error_snail.gif" width="300px">
+ 
+<div align="center">
+<img alt="error_snail" src="/media/fsh.jpg" width="200px">
+  
+<div align="right">
+<img alt="error_snail" src="/media/ok.jpg" width="154px">
+  
+<div align="right">
+<img alt="error_snail" src="/media/hand.png" width="25px">
