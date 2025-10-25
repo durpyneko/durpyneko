@@ -1,7 +1,7 @@
 <div align="center">
 <img alt="banner" src="images/banner-rounded-40.png">
 
-<img align="right" width="38%" src="images/G17f3w6a8AE13xd.jpg"/>
+<img align="right" width="37%" src="images/G17f3w6a8AE13xd.jpg"/>
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
