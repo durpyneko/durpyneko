@@ -1,5 +1,7 @@
 <div align="center">
-<img alt="banner" src="/media/banner-rounded-40.png">
+<img alt="banner" src="images/banner-rounded-40.png">
+
+<img align="right" width="38%" src="images/G17f3w6a8AE13xd.jpg"/>
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
@@ -10,22 +12,8 @@
 ![Chakra](https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white)
 ![Tauri](https://img.shields.io/badge/tauri-%2324C8DB.svg?style=for-the-badge&logo=tauri&logoColor=%23FFFFFF)
 ![Godot Engine](https://img.shields.io/badge/GODOT-%23FFFFFF.svg?style=for-the-badge&logo=godot-engine)
-  
+
 ![Streaks](https://github-readme-streak-stats.herokuapp.com/?user=durpyneko&theme=radical&hide_border=false) $~$
 ![Wakapi](<https://github-readme-stats.vercel.app/api/wakatime?username=durpyneko&hide_border=true&border_radius=16&api_domain=waka.assassin.dev&bg_color=1A202C&title_color=2F855A&icon_color=2F855A&text_color=ffffff&custom_title=Wakapi.dev+Stats+(Last+7+Days)&layout=compact>)
 
-<br>
-
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X0SE0PQ)
-
-<div align="left">
-<img alt="error_snail" src="/media/error_snail.gif" width="300px">
- 
-<div align="center">
-<img alt="error_snail" src="/media/fsh.jpg" width="200px">
-  
-<div align="right">
-<img alt="error_snail" src="/media/ok.jpg" width="154px">
-  
-<div align="right">
-<img alt="error_snail" src="/media/hand.png" width="25px">
