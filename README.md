@@ -21,3 +21,7 @@ $~$
 ![Wakapi](<https://github-readme-stats.vercel.app/api/wakatime?username=durpyneko&hide_border=true&border_radius=16&api_domain=waka.assassin.dev&bg_color=1A202C&title_color=2F855A&icon_color=2F855A&text_color=ffffff&custom_title=Wakapi.dev+Stats+(Last+7+Days)&layout=compact>)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X0SE0PQ)
+
+<div align="right" >
+  <h1><img width="80px" src="https://img.shields.io/badge/NixOS-5277C3?logo=nixos&logoColor=fff"/> btw</h1>
+</div>
