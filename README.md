@@ -18,7 +18,9 @@ $~$
 ![Godot Engine](https://img.shields.io/badge/GODOT-%23FFFFFF.svg?style=for-the-badge&logo=godot-engine)
 
 ![Streaks](https://github-readme-streak-stats.herokuapp.com/?user=durpyneko&theme=radical&hide_border=false) $~$
-![Wakapi](<https://github-readme-stats.vercel.app/api/wakatime?username=durpyneko&hide_border=true&border_radius=16&api_domain=waka.assassin.dev&bg_color=1A202C&title_color=2F855A&icon_color=2F855A&text_color=ffffff&custom_title=Wakapi.dev+Stats+(Last+7+Days)&layout=compact>)
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X0SE0PQ)
 
