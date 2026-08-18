@@ -43,6 +43,16 @@ svelte      █░░░░░░░░░░░░░░░░░░░░░�
 ## ❯ wakatime --today
 
 <!--START_SECTION:waka-->
+```
+rust      ████████████░░░░░░░░░░░░   49.3%  2 hrs 56 mins
+svelte    ██████░░░░░░░░░░░░░░░░░░   25.5%  1 hrs 31 mins
+markdown  ███░░░░░░░░░░░░░░░░░░░░░   13.4%  0 hrs 48 mins
+css       █░░░░░░░░░░░░░░░░░░░░░░░    5.5%  0 hrs 20 mins
+json      █░░░░░░░░░░░░░░░░░░░░░░░    3.4%  0 hrs 12 mins
+toml      ░░░░░░░░░░░░░░░░░░░░░░░░    1.6%  0 hrs 6 mins
+
+5 hrs 57 mins over last 7 days
+```
 <!--END_SECTION:waka-->
 
 ## ❯ curl -s durpy.dev/info | jq
