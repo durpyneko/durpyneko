@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="images/fetch.svg" width="768" alt="durpy@nyanetix" />
+<img src="images/fetch.svg" width="808" alt="durpy@nyanetix" />
 
 ![rust](https://img.shields.io/badge/rust-0d1117?style=flat-square&logo=rust&logoColor=c77dff) ![typescript](https://img.shields.io/badge/typescript-0d1117?style=flat-square&logo=typescript&logoColor=c77dff) ![python](https://img.shields.io/badge/python-0d1117?style=flat-square&logo=python&logoColor=c77dff) ![sveltekit](https://img.shields.io/badge/sveltekit-0d1117?style=flat-square&logo=svelte&logoColor=c77dff) ![nextjs](https://img.shields.io/badge/nextjs-0d1117?style=flat-square&logo=nextdotjs&logoColor=c77dff) ![tailwind](https://img.shields.io/badge/tailwind-0d1117?style=flat-square&logo=tailwindcss&logoColor=c77dff) ![godot](https://img.shields.io/badge/godot-0d1117?style=flat-square&logo=godotengine&logoColor=c77dff) ![arch](https://img.shields.io/badge/arch-0d1117?style=flat-square&logo=archlinux&logoColor=c77dff)
 
