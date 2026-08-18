@@ -1,49 +1,51 @@
 <div align="center">
 
+<img src="images/fetch.svg" width="768" alt="durpy@nyanetix" />
+
+![rust](https://img.shields.io/badge/rust-0d1117?style=flat-square&logo=rust&logoColor=ff5e5b) ![typescript](https://img.shields.io/badge/typescript-0d1117?style=flat-square&logo=typescript&logoColor=ff5e5b) ![python](https://img.shields.io/badge/python-0d1117?style=flat-square&logo=python&logoColor=ff5e5b) ![sveltekit](https://img.shields.io/badge/sveltekit-0d1117?style=flat-square&logo=svelte&logoColor=ff5e5b) ![nextjs](https://img.shields.io/badge/nextjs-0d1117?style=flat-square&logo=nextdotjs&logoColor=ff5e5b) ![tailwind](https://img.shields.io/badge/tailwind-0d1117?style=flat-square&logo=tailwindcss&logoColor=ff5e5b) ![godot](https://img.shields.io/badge/godot-0d1117?style=flat-square&logo=godotengine&logoColor=ff5e5b) ![arch](https://img.shields.io/badge/arch-0d1117?style=flat-square&logo=archlinux&logoColor=ff5e5b)
+
+</div>
+
+<img align="right" width="34%" src="images/right-web.webp" alt="" />
+
+## ❯ ls -la ~/src
+
 <pre>
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡀⠀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⣠⡀⠀⠀⢰⣿⣷⡄⠀⠀⢀⣾⣿⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⢰⣧⠀⠀⢠⣿⣿⡄⠀⡿⣿⣿⣷⠀⠀⣾⣹⣿⣿⡀⠀⢀⣴⡀⠀⢀⣾⠀⠀⠀
-⠀⠀⠀⢸⣻⡆⠀⢸⣽⣿⣷⢸⣷⣿⣿⣿⡆⢰⠷⣾⣿⣿⠇⢠⣿⣽⣇⢀⣿⡿⠀⠀⠀
-⠀⠀⡄⢸⣾⣿⣇⢸⣿⢿⣿⡀⣿⣩⣽⡿⠇⠸⣤⣹⣿⡟⢠⡿⣿⣿⡗⢠⣿⡇⣀⡄⠀
-⢠⠀⣿⠀⣿⣿⣿⠀⠻⢮⡿⠃⠀⠈⠉⠁⠀⠀⠈⠉⠁⠀⠘⢶⠀⠻⠃⣼⣿⢀⣿⡿⢸
-⠀⠇⠹⠀⢸⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣭⡏⠘⣿⠁⠜
-⠀⠀⠀⠀⠀⠙⢿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡈⠏⠀⠀⠈⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⠋⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⢾⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⡄⠀
-⠀⠀⠀⠈⣑⡀⠀⠀⠀⢀⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣷⡀⠀⡀⠀⢀⣏⡁⠀
-⠀⠀⠀⠀⡟⡿⢀⣴⠀⣆⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡟⢣⠸⣿⡄⠸⠏⡀⠀
-⠀⠀⠀⠀⢻⡇⢸⣇⢰⣿⡇⣠⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠀⣿⣿⡄⢿⠓⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⢸⣿⠘⣿⡇⢸⣿⣿⣷⣴⣾⢀⣿⣿⣾⣿⣿⠀⣿⡿⠃⠘⠁⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠐⢿⣿⠀⢿⢻⠉⣿⣿⠈⣿⣿⠉⣿⡏⢸⣿⠁⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⠇⠀⠘⠏⠀⢹⡏⠀⢿⠏⠀⢿⠇⠈⢠⠆⠀⠀⠀⠀⠀⠀⠀
-
-    ░█▀▄░█░█░█▀▄░█▀█░█░█░░░░█▀▄░█▀▀
-    ░█░█░█░█░█▀▄░█▀▀░░█░░░░░█▀▄░▀▀█
-    ░▀▀░░▀▀▀░▀░▀░▀░░░░▀░░▀░░▀░▀░▀▀▀
-
-            · · ─ ·ʚɞ· ─ · ·⠀⠀⠀
+┌─────────┬──────┬────────────────────────────────────────┐
+│ repo    │ lang │ description                            │
+├─────────┼──────┼────────────────────────────────────────┤
+│ <a href="https://github.com/durpyneko/nekosys">nekosys</a> │ rust │ an intelligent and modular eco system  │
+│ <a href="https://github.com/durpyneko/kizuna">kizuna</a>  │ rust │ breach the gap between connections     │
+│ <a href="https://github.com/durpyneko/kakure">kakure</a>  │ rust │ self contained vfs encrypted storage   │
+│ <a href="https://github.com/durpyneko/musubi">musubi</a>  │ rust │ directed acyclic graph in rust for fun │
+│ <a href="https://github.com/durpyneko/mimi">mimi</a>    │ rust │ headphone tray icon (mirror synced)    │
+│ <a href="https://github.com/durpyneko/nyaaan">nyaaan</a>  │ rust │                                        │
+└─────────┴──────┴────────────────────────────────────────┘
 </pre>
 
-$~$
+## ❯ curl -s durpy.dev/info | jq
 
-<img align="right" width="37%" src="images/right.png"/>
+<pre>
+{
+  "handle": "durpyneko",
+  "www": "<a href="https://durpy.dev">https://durpy.dev</a>",
+  "git": "<a href="https://git.durpy.dev">https://git.durpy.dev</a>",
+  "x": "<a href="https://x.com/durpyneko">https://x.com/durpyneko</a>",
+  "ko-fi": "<a href="https://ko-fi.com/durpyneko">https://ko-fi.com/durpyneko</a>",
+  "status": "still compiling"
+}
+</pre>
 
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=%23ff5e5b)
-![SvelteKit](https://img.shields.io/badge/SvelteKit-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Next](https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Godot Engine](https://img.shields.io/badge/GODOT-%23FFFFFF.svg?style=for-the-badge&logo=godot-engine)
+<br clear="both" />
 
-<br />
+---
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X0SE0PQ)
+<div align="center">
 
-<br />
-<br />
-<br />
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/durpyneko)
 
-![it-mu](images/69742D6D75-rgb.gif) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="images/it-mu.gif" alt="it-mu" />
+
+<sub>· · ─ ·ʚɞ· ─ · ·</sub>
+
+</div>
