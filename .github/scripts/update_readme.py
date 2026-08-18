@@ -81,10 +81,12 @@ def language_chart(repos):
     out.append("```")
     return "\n".join(out)
 
+MISSING = []
+
 def splice(text, key, body):
     pat = re.compile(f"(<!-- {key}:START -->).*?(<!-- {key}:END -->)", re.S)
     if not pat.search(text):
-        print(f"  ! marker {key} not found — skipped", file=sys.stderr)
+        MISSING.append(key)
         return text
     return pat.sub(lambda m: m.group(1) + "\n" + body + "\n" + m.group(2), text)
 
@@ -94,6 +96,9 @@ def main():
     doc = open(README, encoding="utf-8").read()
     doc = splice(doc, "PROJECTS", projects_table(repos))
     doc = splice(doc, "LANGS", language_chart(repos))
+    if MISSING:                                  # fail loudly: a silent no-op hid a lost README once
+        print(f"::error::markers missing from {README}: {', '.join(MISSING)}", file=sys.stderr)
+        sys.exit(1)
     open(README, "w", encoding="utf-8").write(doc)
     print("readme updated")
 
