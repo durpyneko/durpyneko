@@ -1,0 +1,63 @@
+name: profile
+
+on:
+  schedule:
+    - cron: '17 4 * * 1'          # weekly, monday 04:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/profile.yml'
+      - '.github/scripts/update_readme.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile
+  cancel-in-progress: false
+
+jobs:
+  readme:
+    name: refresh readme data
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: generate table + language chart
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: python3 .github/scripts/update_readme.py
+
+      - name: commit if changed
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "no change"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore(readme): refresh repo table and language chart"
+          git push
+
+  snake:
+    name: contribution snake
+    runs-on: ubuntu-latest
+    steps:
+      - name: generate
+        uses: Platane/snk@v3.5.0
+        id: snake
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?color_snake=#e9d5ff&color_dots=#161320,#3a1d5c,#6b2fa0,#9d5ae0,#c77dff
+
+      - name: publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
