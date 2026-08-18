@@ -10,6 +10,7 @@
 
 ## ❯ ls -la ~/src
 
+<!-- PROJECTS:START -->
 <pre>
 ┌─────────┬──────┬────────────────────────────────────────┐
 │ repo    │ lang │ description                            │
@@ -22,6 +23,20 @@
 │ <a href="https://github.com/durpyneko/nyaaan">nyaaan</a>  │ rust │                                        │
 └─────────┴──────┴────────────────────────────────────────┘
 </pre>
+<!-- PROJECTS:END -->
+
+## ❯ tokei ~/src
+
+<!-- LANGS:START -->
+```
+generating...
+```
+<!-- LANGS:END -->
+
+## ❯ wakatime --today
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 ## ❯ curl -s durpy.dev/info | jq
 
@@ -35,6 +50,14 @@
   "status": "still compiling"
 }
 </pre>
+
+## ❯ ./snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/durpyneko/durpyneko/output/snake.svg" alt="contribution snake" />
+
+</div>
 
 <br clear="both" />
 
