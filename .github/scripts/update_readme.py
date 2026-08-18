@@ -10,6 +10,13 @@ DESC_MAX  = int(os.environ.get("DESC_MAX", "44"))
 LANG_MODE = os.environ.get("LANG_MODE", "bytes")   # bytes | repos
 BAR_W     = 24
 
+# wakapi lives behind cloudflare, which serves github runners a bot challenge
+# instead of json — so the waka section is only rendered with --waka, from a
+# host that can actually reach it. see scripts/sync-waka.sh
+WAKA_URL   = os.environ.get("WAKATIME_API_URL", "https://waka.assassin.dev/api/compat/wakatime/v1").rstrip("/") + "/"
+WAKA_KEY   = os.environ.get("WAKATIME_API_KEY")
+WAKA_RANGE = os.environ.get("WAKA_RANGE", "last_7_days")
+
 def api(path):
     req = urllib.request.Request("https://api.github.com" + path)
     req.add_header("Accept", "application/vnd.github+json")
@@ -81,14 +88,44 @@ def language_chart(repos):
     out.append("```")
     return "\n".join(out)
 
+def waka_api(path):
+    if not WAKA_KEY:
+        raise RuntimeError("WAKATIME_API_KEY is not set")
+    sep = "&" if "?" in path else "?"
+    req = urllib.request.Request(f"{WAKA_URL}{path}{sep}api_key={WAKA_KEY}")
+    req.add_header("Accept", "application/json")
+    req.add_header("User-Agent", USER + "-profile")
+    with urllib.request.urlopen(req, timeout=30) as r:
+        ctype = r.headers.get("Content-Type", "")
+        if "json" not in ctype:                     # cloudflare challenge page, not wakapi
+            raise RuntimeError(f"expected json, got {ctype!r} — is this host blocked?")
+        return json.load(r)
+
+def waka_chart():
+    d = waka_api(f"users/current/stats/{WAKA_RANGE}")["data"]
+    langs = [l for l in d.get("languages", []) if l.get("total_seconds", 0) > 0][:6]
+    if not langs:
+        return "```\nno coding activity recorded\n```"
+    NW = max(len(l["name"]) for l in langs)
+    out = ["```"]
+    for l in langs:
+        pct  = l["percent"]
+        fill = round(BAR_W * pct / 100)
+        out.append(f"{l['name'].lower().ljust(NW)}  {'█'*fill}{'░'*(BAR_W-fill)}  {pct:5.1f}%  {l['text']}")
+    out += ["", f"{d['human_readable_total']} over {d['human_readable_range'].lower()}", "```"]
+    return "\n".join(out)
+
 MISSING = []
 
-def splice(text, key, body):
-    pat = re.compile(f"(<!-- {key}:START -->).*?(<!-- {key}:END -->)", re.S)
+def splice_pair(text, start, end, body, label):
+    pat = re.compile(f"({re.escape(start)}).*?({re.escape(end)})", re.S)
     if not pat.search(text):
-        MISSING.append(key)
+        MISSING.append(label)
         return text
     return pat.sub(lambda m: m.group(1) + "\n" + body + "\n" + m.group(2), text)
+
+def splice(text, key, body):
+    return splice_pair(text, f"<!-- {key}:START -->", f"<!-- {key}:END -->", body, key)
 
 def main():
     repos = fetch_repos()
@@ -96,6 +133,16 @@ def main():
     doc = open(README, encoding="utf-8").read()
     doc = splice(doc, "PROJECTS", projects_table(repos))
     doc = splice(doc, "LANGS", language_chart(repos))
+    if "--waka" in sys.argv:
+        try:
+            doc = splice_pair(doc, "<!--START_SECTION:waka-->", "<!--END_SECTION:waka-->",
+                              waka_chart(), "waka")
+        except Exception as e:
+            # leave the file untouched rather than blank a section that is still
+            # correct, or commit an unrelated diff under a "wakatime" message.
+            # PROJECTS and LANGS are refreshed by profile.yml in CI anyway.
+            print(f"waka unavailable, readme not written: {e}", file=sys.stderr)
+            sys.exit(2)
     if MISSING:                                  # fail loudly: a silent no-op hid a lost README once
         print(f"::error::markers missing from {README}: {', '.join(MISSING)}", file=sys.stderr)
         sys.exit(1)
