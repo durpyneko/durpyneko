@@ -16,6 +16,11 @@ jobs:
     steps:
       - uses: anmol098/waka-readme-stats@master
         with:
+          # trailing slash is required — the action concatenates "users/current/..."
+          # straight onto this value
           WAKATIME_API_URL: "https://waka.assassin.dev/api/compat/wakatime/v1/"
+          # must be the RAW key, not base64. the action passes it as ?api_key=,
+          # not as an Authorization: Basic header — a base64 value 404s
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          DEBUG_LOGGING: true
