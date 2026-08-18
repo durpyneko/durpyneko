@@ -12,7 +12,7 @@
     </radialGradient>
   </defs>
   <rect width="768" height="393" rx="10" fill="#0d1117"/>
-  <g fill="#8b949e" filter="url(#dotglow)">
+  <g fill="#b0a8c9" filter="url(#dotglow)">
     <ellipse cx="164.63" cy="45.47" rx="3.1" ry="2.39"/>
     <ellipse cx="169.64" cy="45.47" rx="3.1" ry="2.39"/>
     <ellipse cx="174.64" cy="45.47" rx="3.1" ry="2.39"/>
@@ -1107,37 +1107,37 @@
     <ellipse cx="284.75" cy="288.03" rx="3.1" ry="2.39"/>
   </g>
   <g font-family="ui-monospace,SFMono-Regular,Menlo,DejaVu Sans Mono,Consolas,monospace" font-size="12.5">
-    <text x="62.16" y="327.8" fill="#ff5e5b" filter="url(#glow)" xml:space="preserve">___  _  _ ____ ___  _   _  ____ ____</text>
-    <text x="62.16" y="342.8" fill="#ff5e5b" filter="url(#glow)" xml:space="preserve">|  \ |  | |__/ |__]  \_/   |__/ [__ </text>
-    <text x="62.16" y="357.8" fill="#ff5e5b" filter="url(#glow)" xml:space="preserve">|__/ |__| |  \ |      |   .|  \ ___]</text>
+    <text x="62.16" y="327.8" fill="#c77dff" filter="url(#glow)" xml:space="preserve">___  _  _ ____ ___  _   _  ____ ____</text>
+    <text x="62.16" y="342.8" fill="#c77dff" filter="url(#glow)" xml:space="preserve">|  \ |  | |__/ |__]  \_/   |__/ [__ </text>
+    <text x="62.16" y="357.8" fill="#c77dff" filter="url(#glow)" xml:space="preserve">|__/ |__| |  \ |      |   .|  \ ___]</text>
   </g>
   <g font-family="ui-monospace,SFMono-Regular,Menlo,DejaVu Sans Mono,Consolas,monospace">
-    <text x="406.33" y="97.9" font-size="15"><tspan fill="#ff5e5b" font-weight="600">durpy</tspan><tspan fill="#484f58">@</tspan><tspan fill="#ff5e5b" font-weight="600">nyanetix</tspan></text>
-    <rect x="406.33" y="107.9" width="310" height="1" fill="#21262d"/>
-    <text x="406.33" y="132.3" font-size="13" fill="#ff5e5b">os</text>
+    <text x="406.33" y="97.9" font-size="15"><tspan fill="#c77dff" font-weight="600">durpy</tspan><tspan fill="#5b5470">@</tspan><tspan fill="#c77dff" font-weight="600">nyanetix</tspan></text>
+    <rect x="406.33" y="107.9" width="310" height="1" fill="#241f33"/>
+    <text x="406.33" y="132.3" font-size="13" fill="#c77dff">os</text>
     <text x="490.33" y="132.3" font-size="13" fill="#c9d1d9">arch · cachyos · nixos</text>
-    <text x="406.33" y="153.3" font-size="13" fill="#ff5e5b">shell</text>
+    <text x="406.33" y="153.3" font-size="13" fill="#c77dff">shell</text>
     <text x="490.33" y="153.3" font-size="13" fill="#c9d1d9">fish</text>
-    <text x="406.33" y="174.3" font-size="13" fill="#ff5e5b">lang</text>
+    <text x="406.33" y="174.3" font-size="13" fill="#c77dff">lang</text>
     <text x="490.33" y="174.3" font-size="13" fill="#c9d1d9">rust · typescript · python</text>
-    <text x="406.33" y="195.3" font-size="13" fill="#ff5e5b">engine</text>
+    <text x="406.33" y="195.3" font-size="13" fill="#c77dff">engine</text>
     <text x="490.33" y="195.3" font-size="13" fill="#c9d1d9">godot</text>
-    <text x="406.33" y="216.3" font-size="13" fill="#ff5e5b">focus</text>
+    <text x="406.33" y="216.3" font-size="13" fill="#c77dff">focus</text>
     <text x="490.33" y="216.3" font-size="13" fill="#c9d1d9">systems · tooling · automation</text>
-    <text x="406.33" y="237.3" font-size="13" fill="#ff5e5b">www</text>
+    <text x="406.33" y="237.3" font-size="13" fill="#c77dff">www</text>
     <text x="490.33" y="237.3" font-size="13" fill="#c9d1d9">durpy.dev</text>
-    <text x="406.33" y="258.3" font-size="13" fill="#ff5e5b">uptime</text>
+    <text x="406.33" y="258.3" font-size="13" fill="#c77dff">uptime</text>
     <text x="490.33" y="258.3" font-size="13" fill="#c9d1d9">still compiling</text>
-    <rect x="406.33" y="282.9" width="13" height="13" rx="2.5" fill="#1b2129"/>
-    <rect x="423.33" y="282.9" width="13" height="13" rx="2.5" fill="#ff5e5b"/>
-    <rect x="440.33" y="282.9" width="13" height="13" rx="2.5" fill="#c9737a"/>
-    <rect x="457.33" y="282.9" width="13" height="13" rx="2.5" fill="#8b5cf6"/>
-    <rect x="474.33" y="282.9" width="13" height="13" rx="2.5" fill="#5b8dd6"/>
-    <rect x="491.33" y="282.9" width="13" height="13" rx="2.5" fill="#4db6ac"/>
-    <rect x="508.33" y="282.9" width="13" height="13" rx="2.5" fill="#8b949e"/>
+    <rect x="406.33" y="282.9" width="13" height="13" rx="2.5" fill="#1b1626"/>
+    <rect x="423.33" y="282.9" width="13" height="13" rx="2.5" fill="#6c288d"/>
+    <rect x="440.33" y="282.9" width="13" height="13" rx="2.5" fill="#9e40aa"/>
+    <rect x="457.33" y="282.9" width="13" height="13" rx="2.5" fill="#b86fb8"/>
+    <rect x="474.33" y="282.9" width="13" height="13" rx="2.5" fill="#c77dff"/>
+    <rect x="491.33" y="282.9" width="13" height="13" rx="2.5" fill="#8b5cf6"/>
+    <rect x="508.33" y="282.9" width="13" height="13" rx="2.5" fill="#a9a3c2"/>
     <rect x="525.33" y="282.9" width="13" height="13" rx="2.5" fill="#e6edf3"/>
   </g>
   <rect width="768" height="393" rx="10" fill="url(#scan)"/>
   <rect width="768" height="393" rx="10" fill="url(#vig)"/>
-  <rect x="0.5" y="0.5" width="767" height="392" rx="10" fill="none" stroke="#ff5e5b" stroke-opacity="0.2"/>
+  <rect x="0.5" y="0.5" width="767" height="392" rx="10" fill="none" stroke="#c77dff" stroke-opacity="0.2"/>
 </svg>
