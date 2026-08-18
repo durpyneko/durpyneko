@@ -1,0 +1,42 @@
+name: waka debug
+
+# Temporary diagnostic. Reproduces the exact request waka-readme-stats makes,
+# from the runner, and reports the status code the action destroys when it
+# calls res.json() on a non-JSON error body. Delete once waka is green.
+
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: key shape (no value printed)
+        env:
+          KEY: ${{ secrets.WAKATIME_API_KEY }}
+        run: |
+          printf 'length: %s\n' "${#KEY}"
+          case "$KEY" in
+            *[![:print:]]*) echo "shape: CONTAINS NON-PRINTABLE (newline/tab?)" ;;
+            [0-9a-fA-F][0-9a-fA-F][0-9a-fA-F][0-9a-fA-F][0-9a-fA-F][0-9a-fA-F][0-9a-fA-F][0-9a-fA-F]-*-*-*-*) echo "shape: looks like a raw uuid" ;;
+            *=) echo "shape: ends in '=' — looks base64" ;;
+            *) echo "shape: neither uuid nor base64" ;;
+          esac
+          printf 'leading/trailing space: %s\n' "$(case "$KEY" in ' '*|*' ') echo yes;; *) echo no;; esac)"
+
+      - name: reachability from runner
+        run: |
+          curl -s -o /dev/null -w 'health status=%{http_code}\n' --max-time 20 \
+            https://waka.assassin.dev/api/health || echo "health: connection failed"
+
+      - name: exact request the action makes
+        env:
+          KEY: ${{ secrets.WAKATIME_API_KEY }}
+        run: |
+          curl -s -o body.txt -w 'status=%{http_code} type=%{content_type} size=%{size_download}\n' \
+            --max-time 30 \
+            "https://waka.assassin.dev/api/compat/wakatime/v1/users/current/stats/all_time?api_key=${KEY}" \
+            || echo "connection failed"
+          echo "--- first 300 bytes of body ---"
+          head -c 300 body.txt || true
+          echo
