@@ -12,16 +12,18 @@
 
 <!-- PROJECTS:START -->
 <pre>
-┌─────────┬──────┬────────────────────────────────────────┐
-│ repo    │ lang │ description                            │
-├─────────┼──────┼────────────────────────────────────────┤
-│ <a href="https://github.com/durpyneko/nekosys">nekosys</a> │ rust │ an intelligent and modular eco system  │
-│ <a href="https://github.com/durpyneko/kizuna">kizuna</a>  │ rust │ breach the gap between connections     │
-│ <a href="https://github.com/durpyneko/kakure">kakure</a>  │ rust │ self contained vfs encrypted storage   │
-│ <a href="https://github.com/durpyneko/musubi">musubi</a>  │ rust │ directed acyclic graph in rust for fun │
-│ <a href="https://github.com/durpyneko/mimi">mimi</a>    │ rust │ headphone tray icon (mirror synced)    │
-│ <a href="https://github.com/durpyneko/nyaaan">nyaaan</a>  │ rust │                                        │
-└─────────┴──────┴────────────────────────────────────────┘
+┌────────────┬────────────┬──────────────────────────────────────────────┐
+│ repo       │ lang       │ description                                  │
+├────────────┼────────────┼──────────────────────────────────────────────┤
+│ <a href="https://github.com/durpyneko/musubi">musubi</a>     │ rust       │ directed acyclic graph in rust for fun       │
+│ <a href="https://github.com/durpyneko/kakure">kakure</a>     │ rust       │ self contained vfs encrypted storage         │
+│ <a href="https://github.com/durpyneko/kizuna">kizuna</a>     │ rust       │ breach the gap between connections           │
+│ <a href="https://github.com/durpyneko/mimi">mimi</a>       │ rust       │ headphone tray icon (mirror synced)          │
+│ <a href="https://github.com/durpyneko/labby">labby</a>      │ typescript │ frontend interview challenge (auto mirrored… │
+│ <a href="https://github.com/durpyneko/melancholy">melancholy</a> │ rust       │ low level personal website in rust and weba… │
+│ <a href="https://github.com/durpyneko/aishiteru">aishiteru</a>  │ svelte     │ website (this repo is mirrored from my loca… │
+│ <a href="https://github.com/durpyneko/rtml">rtml</a>       │ rust       │ rust macro for generating html from a rust-… │
+└────────────┴────────────┴──────────────────────────────────────────────┘
 </pre>
 <!-- PROJECTS:END -->
 
@@ -29,7 +31,12 @@
 
 <!-- LANGS:START -->
 ```
-generating...
+typescript  █████████░░░░░░░░░░░░░░░   39.5%
+rust        ██████░░░░░░░░░░░░░░░░░░   26.0%
+javascript  ██░░░░░░░░░░░░░░░░░░░░░░    9.9%
+css         ██░░░░░░░░░░░░░░░░░░░░░░    8.4%
+nix         █░░░░░░░░░░░░░░░░░░░░░░░    4.7%
+svelte      █░░░░░░░░░░░░░░░░░░░░░░░    4.1%
 ```
 <!-- LANGS:END -->
 
