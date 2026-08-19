@@ -6,9 +6,9 @@
 
 </div>
 
-<img align="right" width="34%" src="images/right-web.webp" alt="" />
-
 ## ❯ ls -la ~/src
+
+<img align="right" width="34%" src="images/right-web.webp" alt="" />
 
 <!-- PROJECTS:START -->
 <pre>
@@ -40,6 +40,10 @@ svelte      █░░░░░░░░░░░░░░░░░░░░░�
 ```
 <!-- LANGS:END -->
 
+<br clear="both" />
+
+<img align="left" width="15%" src="images/left-web.webp" alt="" />
+
 ## ❯ wakatime --today
 
 <!--START_SECTION:waka-->
@@ -67,6 +71,8 @@ toml      ░░░░░░░░░░░░░░░░░░░░░░░�
   "status": "still compiling"
 }
 </pre>
+
+<br clear="both" />
 
 ## ❯ ./snake
 
