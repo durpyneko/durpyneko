@@ -44,7 +44,7 @@ svelte      █░░░░░░░░░░░░░░░░░░░░░�
 
 ### ❯ wakatime --today
 
-<img align="left" width="12%" src="images/left-web.webp" alt="" />
+<img align="left" width="108" src="images/left-web.webp" alt="" />
 
 <!--START_SECTION:waka-->
 ```
