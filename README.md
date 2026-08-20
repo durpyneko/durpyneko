@@ -6,7 +6,7 @@
 
 </div>
 
-## ❯ ls -la ~/src
+### ❯ ls -la ~/src
 
 <img align="right" width="34%" src="images/right-web.webp" alt="" />
 
@@ -27,7 +27,7 @@
 </pre>
 <!-- PROJECTS:END -->
 
-## ❯ tokei ~/src
+### ❯ tokei ~/src
 
 <!-- LANGS:START -->
 ```
@@ -42,9 +42,9 @@ svelte      █░░░░░░░░░░░░░░░░░░░░░�
 
 <br clear="both" />
 
-<img align="left" width="15%" src="images/left-web.webp" alt="" />
+### ❯ wakatime --today
 
-## ❯ wakatime --today
+<img align="left" width="12%" src="images/left-web.webp" alt="" />
 
 <!--START_SECTION:waka-->
 ```
@@ -59,7 +59,7 @@ toml      ░░░░░░░░░░░░░░░░░░░░░░░�
 ```
 <!--END_SECTION:waka-->
 
-## ❯ curl -s durpy.dev/info | jq
+### ❯ curl -s durpy.dev/info | jq
 
 <pre>
 {
@@ -74,7 +74,7 @@ toml      ░░░░░░░░░░░░░░░░░░░░░░░�
 
 <br clear="both" />
 
-## ❯ ./snake
+### ❯ ./snake
 
 <div align="center">
 
