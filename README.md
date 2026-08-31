@@ -48,14 +48,14 @@ svelte      █░░░░░░░░░░░░░░░░░░░░░�
 
 <!--START_SECTION:waka-->
 ```
-svelte   ████████████████░░░░░░░░   66.6%  1 hrs 11 mins
-rust     ███░░░░░░░░░░░░░░░░░░░░░   12.1%  0 hrs 13 mins
-unknown  ███░░░░░░░░░░░░░░░░░░░░░   10.8%  0 hrs 11 mins
-fish     █░░░░░░░░░░░░░░░░░░░░░░░    5.7%  0 hrs 6 mins
-json     █░░░░░░░░░░░░░░░░░░░░░░░    4.2%  0 hrs 4 mins
-css      ░░░░░░░░░░░░░░░░░░░░░░░░    0.6%  0 hrs 1 mins
+svelte   ███████████░░░░░░░░░░░░░   44.8%  1 hrs 11 mins
+rust     █████████░░░░░░░░░░░░░░░   39.5%  1 hrs 2 mins
+unknown  ██░░░░░░░░░░░░░░░░░░░░░░    8.3%  0 hrs 13 mins
+fish     █░░░░░░░░░░░░░░░░░░░░░░░    3.8%  0 hrs 6 mins
+json     █░░░░░░░░░░░░░░░░░░░░░░░    2.8%  0 hrs 4 mins
+css      ░░░░░░░░░░░░░░░░░░░░░░░░    0.4%  0 hrs 1 mins
 
-1 hrs 46 mins over last 7 days
+2 hrs 38 mins over last 7 days
 ```
 <!--END_SECTION:waka-->
 
