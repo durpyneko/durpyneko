@@ -48,7 +48,10 @@ svelte      █░░░░░░░░░░░░░░░░░░░░░�
 
 <!--START_SECTION:waka-->
 ```
-no coding activity recorded
+rust  ████████████████████░░░░   84.8%  0 hrs 1 mins
+toml  ████░░░░░░░░░░░░░░░░░░░░   15.2%  0 hrs 0 mins
+
+0 hrs 2 mins over last 7 days
 ```
 <!--END_SECTION:waka-->
 
