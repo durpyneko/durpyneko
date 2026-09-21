@@ -48,10 +48,7 @@ svelte      █░░░░░░░░░░░░░░░░░░░░░�
 
 <!--START_SECTION:waka-->
 ```
-svelte      ████████████████░░░░░░░░   66.5%  0 hrs 4 mins
-typescript  ████████░░░░░░░░░░░░░░░░   33.5%  0 hrs 2 mins
-
-0 hrs 6 mins over last 7 days
+no coding activity recorded
 ```
 <!--END_SECTION:waka-->
 
