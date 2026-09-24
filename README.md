@@ -48,7 +48,14 @@ svelte      █░░░░░░░░░░░░░░░░░░░░░�
 
 <!--START_SECTION:waka-->
 ```
-no coding activity recorded
+vue.js      ██████████░░░░░░░░░░░░░░   40.9%  0 hrs 12 mins
+css         █████████░░░░░░░░░░░░░░░   37.6%  0 hrs 11 mins
+typescript  ██░░░░░░░░░░░░░░░░░░░░░░    9.1%  0 hrs 3 mins
+rust        ██░░░░░░░░░░░░░░░░░░░░░░    6.3%  0 hrs 2 mins
+bash        █░░░░░░░░░░░░░░░░░░░░░░░    3.1%  0 hrs 1 mins
+json        █░░░░░░░░░░░░░░░░░░░░░░░    2.6%  0 hrs 1 mins
+
+0 hrs 29 mins over last 7 days
 ```
 <!--END_SECTION:waka-->
 
