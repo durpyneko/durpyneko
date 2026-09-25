@@ -48,14 +48,14 @@ svelte      █░░░░░░░░░░░░░░░░░░░░░�
 
 <!--START_SECTION:waka-->
 ```
-vue.js      ██████████░░░░░░░░░░░░░░   40.9%  0 hrs 12 mins
-css         █████████░░░░░░░░░░░░░░░   37.6%  0 hrs 11 mins
-typescript  ██░░░░░░░░░░░░░░░░░░░░░░    9.1%  0 hrs 3 mins
-rust        ██░░░░░░░░░░░░░░░░░░░░░░    6.3%  0 hrs 2 mins
-bash        █░░░░░░░░░░░░░░░░░░░░░░░    3.1%  0 hrs 1 mins
-json        █░░░░░░░░░░░░░░░░░░░░░░░    2.6%  0 hrs 1 mins
+vue.js      █████████░░░░░░░░░░░░░░░   36.6%  0 hrs 12 mins
+css         ████████░░░░░░░░░░░░░░░░   32.8%  0 hrs 11 mins
+typescript  ██░░░░░░░░░░░░░░░░░░░░░░    7.9%  0 hrs 3 mins
+json        ██░░░░░░░░░░░░░░░░░░░░░░    6.4%  0 hrs 2 mins
+python      █░░░░░░░░░░░░░░░░░░░░░░░    5.8%  0 hrs 2 mins
+rust        █░░░░░░░░░░░░░░░░░░░░░░░    5.7%  0 hrs 2 mins
 
-0 hrs 29 mins over last 7 days
+0 hrs 33 mins over last 7 days
 ```
 <!--END_SECTION:waka-->
 
